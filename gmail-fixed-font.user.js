@@ -5,7 +5,8 @@
 // @icon           https://mail.google.com/favicon.ico
 // @run-at         document-start
 // @description    Custom fixed-font in Gmail messages
-// @version        1.1
+// @version        1.2
+// @license        CC0; https://creativecommons.org/publicdomain/zero/1.0/
 // @downloadURL    https://raw.githubusercontent.com/lidel/userscripts/master/gmail-fixed-font.user.js
 // @homepageURL    https://github.com/lidel/userscripts
 // @grant          none

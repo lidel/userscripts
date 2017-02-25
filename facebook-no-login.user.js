@@ -5,7 +5,8 @@
 // @icon        https://www.facebook.com/favicon.ico
 // @include     *.facebook.*/*
 // @run-at      document-start
-// @version     1.2
+// @version     1.3
+// @license     CC0; https://creativecommons.org/publicdomain/zero/1.0/
 // @downloadURL https://raw.githubusercontent.com/lidel/userscripts/master/facebook-no-login.user.js
 // @homepageURL https://github.com/lidel/userscripts
 // @grant       GM_addStyle
