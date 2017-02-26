@@ -6,6 +6,7 @@ My [UserScripts](https://openuserjs.org/about/Userscript-Beginners-HOWTO) that s
 
 - Custom Fixed Font in Gmail ([src](https://github.com/lidel/userscripts/blob/master/gmail-fixed-font.user.js)) ([install](https://raw.githubusercontent.com/lidel/userscripts/master/gmail-fixed-font.user.js))
 - Clean Facebook without Login ([src](https://github.com/lidel/userscripts/blob/master/facebook-no-login.user.js)) ([install](https://raw.githubusercontent.com/lidel/userscripts/master/facebook-no-login.user.js))
+- Imgur without Social ([src](https://github.com/lidel/userscripts/blob/master/imgur-no-social.user.js)) ([install](https://raw.githubusercontent.com/lidel/userscripts/master/imgur-no-social.user.js))
 
 ## Browser Support
 
