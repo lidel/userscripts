@@ -5,14 +5,14 @@
 // @icon        https://imgur.com/favicon.ico
 // @include     https://imgur.com/*
 // @run-at      document-start
-// @version     1.1
+// @version     1.2
 // @license     CC0; https://creativecommons.org/publicdomain/zero/1.0/
 // @downloadURL https://raw.githubusercontent.com/lidel/userscripts/master/imgur-no-social.user.js
 // @homepageURL https://github.com/lidel/userscripts
 // @grant       GM_addStyle
 // ==/UserScript==
 
-var css = "#content .sentence-sorting, #imagelist.home-gallery, #content #top-comments { display: none !important; }";
+var css = "#content .sentence-sorting, #content .panel, #imagelist.home-gallery, #content #top-comments { display: none !important; }";
 
 if (typeof GM_addStyle != "undefined") {
     GM_addStyle(css);
