@@ -3,7 +3,7 @@
 // @description Removes annoying content from the main page
 // @namespace   https://imgur.com
 // @icon        https://imgur.com/favicon.ico
-// @include     *.imgur.com/*
+// @include     https://imgur.com/*
 // @run-at      document-start
 // @version     1.0
 // @license     CC0; https://creativecommons.org/publicdomain/zero/1.0/
