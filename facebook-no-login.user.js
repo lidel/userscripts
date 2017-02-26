@@ -5,14 +5,14 @@
 // @icon        https://www.facebook.com/favicon.ico
 // @include     *.facebook.*/*
 // @run-at      document-start
-// @version     1.3
+// @version     1.4
 // @license     CC0; https://creativecommons.org/publicdomain/zero/1.0/
 // @downloadURL https://raw.githubusercontent.com/lidel/userscripts/master/facebook-no-login.user.js
 // @homepageURL https://github.com/lidel/userscripts
 // @grant       GM_addStyle
 // ==/UserScript==
 
-var css = "#pagelet_bluebar, #pagelet_growth_expanding_cta { display: none !important; }";
+var css = "#dialog_0.pop_dialog, #pagelet_loggedout_sign_up, #pagelet_bluebar, #pagelet_growth_expanding_cta { display: none !important; }";
 
 if (typeof GM_addStyle != "undefined") {
     GM_addStyle(css);
