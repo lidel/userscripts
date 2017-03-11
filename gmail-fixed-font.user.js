@@ -5,18 +5,18 @@
 // @icon           https://mail.google.com/favicon.ico
 // @run-at         document-start
 // @description    Custom fixed-font in Gmail messages
-// @version        1.2.1
+// @version        1.2.3
 // @license        CC0; https://creativecommons.org/publicdomain/zero/1.0/
 // @downloadURL    https://raw.githubusercontent.com/lidel/userscripts/master/gmail-fixed-font.user.js
 // @homepageURL    https://github.com/lidel/userscripts
 // @grant          none
 // ==/UserScript==
 
-var fontName = 'Droid Sans Mono';
+var fontName = 'Inconsolata';
 var fontSubset = 'latin';
 
 // dragons below this line
-var fontCss = 'font-family: 'DejaVu Sans Mono', \'' + fontName + '\', monospace !important;';
+var fontCss = 'font-family: \'' + fontName + '\', monospace !important;';
 // plain-text messages
 var css = '.ii, .Ak {' + fontCss + '}';
 // editor
