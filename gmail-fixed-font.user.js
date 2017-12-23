@@ -5,11 +5,11 @@
 // @icon           https://ssl.gstatic.com/ui/v1/icons/mail/favicon.ico
 // @run-at         document-start
 // @description    Custom fixed-font in Gmail messages
-// @version        1.4.0
+// @version        1.4.1
 // @license        CC0; https://creativecommons.org/publicdomain/zero/1.0/
+// @author         Marcin Rataj (original), Martin Baranski (tweaks)
 // @downloadURL    https://raw.githubusercontent.com/lidel/userscripts/master/gmail-fixed-font.user.js
 // @homepageURL    https://github.com/lidel/userscripts
-// @require        https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js
 // @grant          GM_addStyle
 // @grant          GM.addStyle
 // ==/UserScript==
@@ -47,5 +47,5 @@ if (typeof GM_addStyle != "undefined") {
     node.type = 'text/css';
     node.appendChild(document.createTextNode(css));
     heads[0].appendChild(node);
-  }  
+  }
 }
