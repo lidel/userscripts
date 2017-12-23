@@ -2,10 +2,10 @@
 // @name           Custom Fixed Font in Gmail
 // @namespace      https://mail.google.com
 // @include        https://mail.google.com/*
-// @icon           https://mail.google.com/favicon.ico
+// @icon           https://ssl.gstatic.com/ui/v1/icons/mail/favicon.ico
 // @run-at         document-start
 // @description    Custom fixed-font in Gmail messages
-// @version        1.3.0
+// @version        1.4.0
 // @license        CC0; https://creativecommons.org/publicdomain/zero/1.0/
 // @downloadURL    https://raw.githubusercontent.com/lidel/userscripts/master/gmail-fixed-font.user.js
 // @homepageURL    https://github.com/lidel/userscripts
@@ -14,7 +14,7 @@
 // @grant          GM.addStyle
 // ==/UserScript==
 
-const fontName = 'Inconsolata';
+const fontName = 'Source Code Pro';
 const fontSubset = 'latin';
 
 // dragons below this line
