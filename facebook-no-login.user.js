@@ -5,14 +5,14 @@
 // @icon        https://www.facebook.com/favicon.ico
 // @include     *.facebook.*/*
 // @run-at      document-start
-// @version     1.5.0
+// @version     1.5.1
 // @license     CC0; https://creativecommons.org/publicdomain/zero/1.0/
 // @downloadURL https://raw.githubusercontent.com/lidel/userscripts/master/facebook-no-login.user.js
 // @homepageURL https://github.com/lidel/userscripts
 // @grant       GM_addStyle
 // ==/UserScript==
 
-var css = "#headerArea div#u_0_0, #headerArea div#u_0_1, #headerArea div#u_0_3, #dialog_0.pop_dialog, #pagelet_loggedout_sign_up, #pagelet_bluebar, #pagelet_growth_expanding_cta { display: none !important; }";
+var css = "#headerArea div#u_0_0, #headerArea div#u_0_1, #headerArea div#u_0_3, #dialog_0.pop_dialog, #pagelet_loggedout_sign_up, #pagelet_bluebar, #pagelet_growth_expanding_cta, UIPage_LoggedOut { display: none !important; }";
 
 if (typeof GM_addStyle != "undefined") {
     GM_addStyle(css);
@@ -27,4 +27,3 @@ if (typeof GM_addStyle != "undefined") {
         heads[0].appendChild(node);
     }
 }
-
